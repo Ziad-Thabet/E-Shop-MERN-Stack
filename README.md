@@ -22,20 +22,20 @@ git clone https://github.com/Ziad-Thabet/E-Shop-MERN-Stack
 ## 2. Install Dependencies
 
 ### Frontend
-bash
+```bash
 cd frontend
 npm install # or yarn
-
+```
 ### Backend
-bash
+```bash
 cd backend
 npm install # or yarn
-
+```
 ### Socket
-bash
+```bash
 cd socket
 npm install # or yarn
-
+```
 ## 3. Configure Environment Variables
 
 Create a `.env` file in the `backend` directory with the following variables:
