@@ -1,0 +1,110 @@
+[{
+  "_id": {
+    "$oid": "6581efc2944d55beccd994f9"
+  },
+  "name": "Computer Gaming",
+  "description": "asd",
+  "category": "Computers",
+  "start_Date": {
+    "$date": "2023-12-19T00:00:00.000Z"
+  },
+  "Finish_Date": {
+    "$date": "2023-12-22T00:00:00.000Z"
+  },
+  "status": "Running",
+  "tags": "asd",
+  "originalPrice": 132,
+  "discountPrice": 99,
+  "stock": 15,
+  "images": [
+    {
+      "public_id": "products/x2oehvti6y3nv6oswasr",
+      "url": "https://res.cloudinary.com/ds17m8b7o/image/upload/v1703014337/products/x2oehvti6y3nv6oswasr.jpg",
+      "_id": {
+        "$oid": "6581efc2944d55beccd994fa"
+      }
+    }
+  ],
+  "shopId": "6581ec6c944d55beccd994a7",
+  "shop": {
+    "avatar": {
+      "public_id": "avatars/jwgwslfbgpclgyqvyrc8",
+      "url": "https://res.cloudinary.com/ds17m8b7o/image/upload/v1703013454/avatars/jwgwslfbgpclgyqvyrc8.jpg"
+    },
+    "_id": {
+      "$oid": "6581ec6c944d55beccd994a7"
+    },
+    "name": "Trex",
+    "email": "ziadthabet1522@gmail.com",
+    "address": "Alex",
+    "phoneNumber": 1060839596,
+    "role": "Seller",
+    "zipCode": 123,
+    "availableBalance": 0,
+    "createdAt": {
+      "$date": "2023-12-19T18:54:57.975Z"
+    },
+    "transections": [],
+    "__v": 0
+  },
+  "sold_out": 0,
+  "createdAt": {
+    "$date": "2023-12-19T18:54:58.078Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6581f0ab944d55beccd9950d"
+  },
+  "name": "asdad",
+  "description": "asdasdad",
+  "category": "Laptops",
+  "start_Date": {
+    "$date": "2023-12-19T00:00:00.000Z"
+  },
+  "Finish_Date": {
+    "$date": "2023-12-22T00:00:00.000Z"
+  },
+  "status": "Running",
+  "tags": "asdasdads",
+  "originalPrice": 651,
+  "discountPrice": 321,
+  "stock": 51,
+  "images": [
+    {
+      "public_id": "products/shnxb4i0prrw3e6gubbj",
+      "url": "https://res.cloudinary.com/ds17m8b7o/image/upload/v1703014570/products/shnxb4i0prrw3e6gubbj.jpg",
+      "_id": {
+        "$oid": "6581f0ab944d55beccd9950e"
+      }
+    }
+  ],
+  "shopId": "6581ec6c944d55beccd994a7",
+  "shop": {
+    "avatar": {
+      "public_id": "avatars/jwgwslfbgpclgyqvyrc8",
+      "url": "https://res.cloudinary.com/ds17m8b7o/image/upload/v1703013454/avatars/jwgwslfbgpclgyqvyrc8.jpg"
+    },
+    "_id": {
+      "$oid": "6581ec6c944d55beccd994a7"
+    },
+    "name": "Trex",
+    "email": "ziadthabet1522@gmail.com",
+    "address": "Alex",
+    "phoneNumber": 1060839596,
+    "role": "Seller",
+    "zipCode": 123,
+    "availableBalance": 0,
+    "createdAt": {
+      "$date": "2023-12-19T18:54:57.975Z"
+    },
+    "transections": [],
+    "__v": 0
+  },
+  "sold_out": 0,
+  "createdAt": {
+    "$date": "2023-12-19T18:54:58.078Z"
+  },
+  "__v": 0
+}]

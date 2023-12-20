@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "6581f19d944d55beccd99588"
+  },
+  "groupTitle": "6581ed33944d55beccd994b86581e9f3944d55beccd99484",
+  "members": [
+    "6581e9f3944d55beccd99484",
+    "6581ec6c944d55beccd994a7"
+  ],
+  "createdAt": {
+    "$date": "2023-12-19T19:40:13.479Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-19T20:27:28.360Z"
+  },
+  "__v": 0,
+  "lastMessage": "sdf",
+  "lastMessageId": "6581ec6c944d55beccd994a7"
+}]

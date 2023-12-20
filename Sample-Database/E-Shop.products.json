@@ -1,0 +1,49 @@
+[{
+  "_id": {
+    "$oid": "6581ed33944d55beccd994b8"
+  },
+  "name": "Computer Gaming",
+  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  "category": "Computers",
+  "tags": "ZZ",
+  "originalPrice": 100,
+  "discountPrice": 99,
+  "stock": 4,
+  "images": [
+    {
+      "public_id": "products/eqqbaojneebnaetruq9z",
+      "url": "https://res.cloudinary.com/ds17m8b7o/image/upload/v1703013682/products/eqqbaojneebnaetruq9z.jpg",
+      "_id": {
+        "$oid": "6581ed33944d55beccd994b9"
+      }
+    }
+  ],
+  "shopId": "6581ec6c944d55beccd994a7",
+  "shop": {
+    "avatar": {
+      "public_id": "avatars/jwgwslfbgpclgyqvyrc8",
+      "url": "https://res.cloudinary.com/ds17m8b7o/image/upload/v1703013454/avatars/jwgwslfbgpclgyqvyrc8.jpg"
+    },
+    "_id": {
+      "$oid": "6581ec6c944d55beccd994a7"
+    },
+    "name": "Trex",
+    "email": "ziadthabet1522@gmail.com",
+    "address": "Alex",
+    "phoneNumber": 1060839596,
+    "role": "Seller",
+    "zipCode": 123,
+    "availableBalance": 0,
+    "createdAt": {
+      "$date": "2023-12-19T18:54:57.975Z"
+    },
+    "transections": [],
+    "__v": 0
+  },
+  "sold_out": 0,
+  "createdAt": {
+    "$date": "2023-12-19T18:54:58.029Z"
+  },
+  "reviews": [],
+  "__v": 0
+}]
