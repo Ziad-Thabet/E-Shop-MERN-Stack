@@ -1,4 +1,4 @@
-# E-Shop MERN Stack with Socket Messaging
+# E-Shop MERN Stack
 
 Welcome to the E-Shop application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack, featuring socket-based messaging between customers and sellers. Additionally, this project utilizes Cloudinary for image uploads, Gmail SMTP for email functionality, Stripe for payment processing, JWT for authentication, and Tailwind CSS for styling.
 
@@ -11,6 +11,7 @@ Welcome to the E-Shop application built using the MERN (MongoDB, Express.js, Rea
     - [Socket](#socket)
   - [3. Configure Environment Variables](#3-configure-environment-variables)
   - [4. Run the Application](#4-run-the-application)
+  - [5. Explore and Customize](#5-Explore-and-Customize)
 
 ## Getting Started
 
@@ -39,27 +40,50 @@ npm install # or yarn
 
 Create a `.env` file in the `backend` directory with the following variables:
 
-env
-# MongoDB connection string
-MONGO_URI=your_mongodb_connection_string
+# Port for the backend server
+PORT=your_backend_port
 
-# Cloudinary configuration
-CLOUDINARY_CLOUD_NAME=your_cloud_name
-CLOUDINARY_API_KEY=your_api_key
-CLOUDINARY_API_SECRET=your_api_secret
-
-# Gmail SMTP configuration
-SMTP_EMAIL=your_gmail_email
-SMTP_PASSWORD=your_gmail_password
-
-# Stripe API key
-STRIPE_SECRET_KEY=your_stripe_secret_key
+# MongoDB connection URL
+DB_URL=your_mongodb_connection_url
 
 # JWT Secret Key
-JWT_SECRET=your_jwt_secret
+JWT_SECRET_KEY=your_jwt_secret_key
 
-# Port for the backend server
-PORT=8000
+# JWT Token expiration time (in seconds)
+JWT_EXPIRES=your_jwt_expires_in_seconds
+
+# Activation secret for user registration
+ACTIVATION_SECRET=your_activation_secret
+
+# SMTP Service for email functionality
+SMTP_SERVICE=your_smtp_service
+
+# SMTP Host
+SMTP_HOST=your_smtp_host
+
+# SMTP Port
+SMTP_PORT=your_smtp_port
+
+# SMTP Password
+SMTP_PASSWORD=your_smtp_password
+
+# SMTP Email Address
+SMTP_MAIL=your_smtp_email
+
+# Stripe API Key
+STRIPE_API_KEY=your_stripe_api_key
+
+# Stripe Secret Key
+STRIPE_SECRET_KEY=your_stripe_secret_key
+
+# Cloudinary Cloud Name
+CLOUDINARY_NAME=your_cloudinary_name
+
+# Cloudinary API Key
+CLOUDINARY_API_KEY=your_cloudinary_api_key
+
+# Cloudinary API Secret
+CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 
 ## 4. Run the Application
 
