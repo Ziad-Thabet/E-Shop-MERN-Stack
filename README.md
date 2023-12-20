@@ -16,8 +16,9 @@ Welcome to the E-Shop application built using the MERN (MongoDB, Express.js, Rea
 ## Getting Started
 
 ### 1. Clone the Repository
-bash
+```bash
 git clone https://github.com/Ziad-Thabet/E-Shop-MERN-Stack
+```
  2. Install Dependencies
 ## 2. Install Dependencies
 
@@ -88,22 +89,22 @@ CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 ## 4. Run the Application
 
 ### Run the Frontend
-bash
+```bash
 cd frontend
 npm start
-
+```
 ### Run the Backend
 
-bash
+```bash
 cd backend
 npm start
-
+```
 ### Run the Socket
 
-bash
+```bash
 cd socket
 npm start
-
+```
 ## 5. Explore and Customize
 
 Now, the E-Shop application should be up and running. Open your browser and navigate to `http://localhost:3000` to access the application.
