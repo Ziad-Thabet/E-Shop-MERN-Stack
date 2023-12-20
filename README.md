@@ -15,23 +15,23 @@ Welcome to the E-Shop application built using the MERN (MongoDB, Express.js, Rea
 ## Getting Started
 
 ### 1. Clone the Repository
-```bash
+bash
 git clone https://github.com/Ziad-Thabet/E-Shop-MERN-Stack
  2. Install Dependencies
 ## 2. Install Dependencies
 
 ### Frontend
-```bash
+bash
 cd frontend
 npm install # or yarn
 
 ### Backend
-```bash
+bash
 cd backend
 npm install # or yarn
 
 ### Socket
-```bash
+bash
 cd socket
 npm install # or yarn
 
@@ -39,7 +39,7 @@ npm install # or yarn
 
 Create a `.env` file in the `backend` directory with the following variables:
 
-```env
+env
 # MongoDB connection string
 MONGO_URI=your_mongodb_connection_string
 
@@ -64,19 +64,19 @@ PORT=8000
 ## 4. Run the Application
 
 ### Run the Frontend
-```bash
+bash
 cd frontend
 npm start
 
 ### Run the Backend
 
-```bash
+bash
 cd backend
 npm start
 
 ### Run the Socket
 
-```bash
+bash
 cd socket
 npm start
 
