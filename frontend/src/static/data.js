@@ -35,6 +35,10 @@ const NavigationData = () => {
       url: "/shop-login",
       visible: !isAuthenticated,
     },
+    {
+      title: "Profile",
+      url: "/profile",
+    },
   ];
 
   // Show only "Login Seller" and "Login User" before the user logs in
