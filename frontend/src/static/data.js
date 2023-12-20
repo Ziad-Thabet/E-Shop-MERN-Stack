@@ -1,26 +1,56 @@
-// navigation Data
-export const navItems = [
-  {
-    title: "Home",
-    url: "/",
-  },
-  {
-    title: "Best Selling",
-    url: "/best-selling",
-  },
-  {
-    title: "Products",
-    url: "/products",
-  },
-  {
-    title: "Events",
-    url: "/events",
-  },
-  {
-    title: "FAQ",
-    url: "/faq",
-  },
-];
+// NavigationData.js
+import { useSelector } from "react-redux";
+
+const NavigationData = () => {
+  const { isAuthenticated } = useSelector((state) => state.user);
+
+  const baseNavItems = [
+    {
+      title: "Home",
+      url: "/",
+    },
+    {
+      title: "Best Selling",
+      url: "/best-selling",
+    },
+    {
+      title: "Products",
+      url: "/products",
+    },
+    {
+      title: "Events",
+      url: "/events",
+    },
+    {
+      title: "FAQ",
+      url: "/faq",
+    },
+    {
+      title: "Login User",
+      url: "/login",
+      visible: !isAuthenticated,
+    },
+    {
+      title: "Login Seller",
+      url: "/shop-login",
+      visible: !isAuthenticated,
+    },
+  ];
+
+  // Show only "Login Seller" and "Login User" before the user logs in
+  const filteredNavItems = isAuthenticated
+    ? baseNavItems.filter(
+      (item) => item.title !== "Login Seller" && item.title !== "Login User"
+    )
+    : baseNavItems.filter(
+      (item) => item.title === "Login Seller" || item.title === "Login User"
+    );
+
+  return filteredNavItems;
+};
+
+export default NavigationData;
+
 
 // branding data
 export const brandingData = [

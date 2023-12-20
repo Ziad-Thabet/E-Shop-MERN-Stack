@@ -64,7 +64,7 @@ const Header = ({ activeHeading }) => {
             </Link>
           </div>
           {/* search box */}
-          <div className="w-[50%] relative">
+          <div className="w-[90%] relative">
             <input
               type="text"
               placeholder="Search Product..."
@@ -97,14 +97,14 @@ const Header = ({ activeHeading }) => {
             ) : null}
           </div>
 
-          <div className={`${styles.button}`}>
+          {/* <div className={`${styles.button}`}>
             <Link to={`${isSeller ? "/dashboard" : "/shop-create"}`}>
               <h1 className="text-[#fff] flex items-center">
                 {isSeller ? "Go Dashboard" : "Become Seller"}{" "}
                 <IoIosArrowForward className="ml-1" />
               </h1>
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
       <div
@@ -115,26 +115,25 @@ const Header = ({ activeHeading }) => {
           className={`${styles.section} relative ${styles.noramlFlex} justify-between`}
         >
           {/* categories */}
-          <div onClick={() => setDropDown(!dropDown)}>
-            <div className="relative h-[60px] mt-[10px] w-[270px] hidden 1000px:block">
-              <BiMenuAltLeft size={30} className="absolute top-3 left-2" />
-              <button
-                className={`h-[100%] w-full flex justify-between items-center pl-10 bg-white font-sans text-lg font-[500] select-none rounded-t-md`}
-              >
-                All Categories
-              </button>
-              <IoIosArrowDown
-                size={20}
-                className="absolute right-2 top-4 cursor-pointer"
-                onClick={() => setDropDown(!dropDown)}
-              />
-              {dropDown ? (
-                <DropDown
-                  categoriesData={categoriesData}
-                  setDropDown={setDropDown}
+          <div>
+            {isAuthenticated && (
+              <div className="relative h-[60px] mt-[10px] w-[270px] hidden 1000px:block">
+                <BiMenuAltLeft size={30} className="absolute top-3 left-2" />
+                <button
+                  className={`h-[100%] w-full flex justify-between items-center pl-10 bg-white font-sans text-lg font-[500] select-none rounded-t-md`}
+                >
+                  All Categories
+                </button>
+                <IoIosArrowDown
+                  size={20}
+                  className="absolute right-2 top-4 cursor-pointer"
+                  onClick={() => setDropDown(!dropDown)}
                 />
-              ) : null}
-            </div>
+                {dropDown ? (
+                  <DropDown categoriesData={categoriesData} setDropDown={setDropDown} />
+                ) : null}
+              </div>
+            )}
           </div>
           {/* navitems */}
           <div className={`${styles.noramlFlex}`}>
